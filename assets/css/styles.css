@@ -3,3 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* Media query for small screen sizes */
+@media (max-width: 767px) {
+    .notifyjs-corner {
+        top: 50px; 
+        max-width: 100%;
+    }
+}

@@ -1,13 +1,13 @@
 <?php 
     require_once("./includes/header.php");
 ?>
-    <div class="flex flex-col justify-center items-center h-screen gap-3">
+    <div class="flex flex-col justify-center items-center h-screen gap-3 overflow-x-hidden">
         <div class="font-bold text-4xl py-10">
             <h1>Let's you in</h1>
         </div>
         <div class="border-2 px-10 py-2 font-semibold text-center rounded-xl hover:bg-blue-600 hover:text-white">
             <a href="">
-                <i class="fa-brands text-blue-600 text-2xl fa-facebook"></i> <span class="text-xl">Continue with Facebook</span>
+                <i class="fa-brands text-blue-700 text-2xl fa-facebook"></i> <span class="text-xl">Continue with Facebook</span>
             </a>
         </div>
         <div class="border-2 px-[3.2rem] py-2 font-semibold text-center rounded-xl hover:bg-blue-600 hover:text-white">
